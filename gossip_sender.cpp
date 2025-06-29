@@ -9,7 +9,7 @@ namespace gossip {
 GossipSender::GossipSender(std::shared_ptr<GossipConfig> cfg): cfg(cfg) {}
 
 void GossipSender::start()  {
-    std::cout << "Starting the sender";
+    std::cout << "Starting the sender" << std::endl;
 }
 
 void GossipSender::send(unsigned char* message)  {

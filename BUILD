@@ -10,6 +10,8 @@ cc_binary(
             "gossip_manager.cpp",
             "gossip_sender.cpp",
             "sender.h",
+            "receiver.h",
+            "gossip_receiver.cpp"
             ],
     deps = [
         "@jsoncpp//:jsoncpp",
